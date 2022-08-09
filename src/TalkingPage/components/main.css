@@ -1,0 +1,275 @@
+.background-section{
+    background-color: rgb(161, 161, 161);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sectionmain{
+    background-color: black;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+}
+.button-send{
+    border: none;
+    background-color: rgb(161, 161, 161);
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 8px;
+    border-collapse: collapse;
+
+}
+.button-send:hover{
+    cursor: pointer;
+}
+.sendlogo{
+    margin-top: 3px;
+    width: auto;
+    height: 95%;
+    object-fit: cover;
+}
+.input-part{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    padding: 5px ;
+    width: 99%;
+}
+.inputmsg{
+    margin-top: 0;
+    flex: 1;
+    width: 100%;
+}
+.messages-part{
+    background-color: rgb(45, 45, 45);
+    height: 40rem;
+    width: 50rem;
+    position: relative;
+}
+.ASK-Answer-btn{
+    font-size: 1.1rem;
+    color: rgb(45, 45, 45);
+}
+.choices-part{
+    background-color: rgb(45, 45, 45);
+    
+    width: 10rem;
+    border-right: 2px rgb(161, 161, 161) double;
+}
+li{
+    color: white;
+    outline-style: none;
+    text-decoration: none;
+}
+.testp{
+    color: white;
+}
+.Public-chat{
+    border-top: 1px solid gray;
+    border-width: 2px;
+}
+.Public-chat,.Private-chat{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 10px;
+}
+.button-selection{
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 500px;
+    padding: 0.5rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+   
+}
+.search-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(45, 45, 45)  ;
+    width: 100%;
+    padding-top: 0;
+    height:10% ;
+}
+.testp{
+    margin: 0;
+    border-radius: 20px;
+}
+.Searchfoinfo{
+    margin-top: 0;
+
+}
+.Add-Server{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7rem;
+}
+.msg-div-recv,.msg-div-send{
+    z-index: 20;
+    display: inline-block;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 15px;
+    padding: 0.7rem 0.5rem;
+   
+}
+.blockdivsend{
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+}
+.blockdivrecv{
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+.msg-div-recv{
+    background-color: blue;
+}
+.displaymssgs{
+    overflow-y: scroll;
+    max-height: 570px;
+}
+.Friendsbackground{
+    padding: 1rem 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Friend-Div{
+    background-color: rgba(150, 150, 150,0.7);   
+    height: 300px;
+    width: 500px;
+    
+}
+.InviteFriends{
+    cursor: pointer;
+    padding: 0.75rem 1.5rem;
+    background-color: rgb(161, 161, 161);
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+}
+.flexdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.UserDisplay{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-height: 300px;
+}
+.FriendDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.displayingUsersName{
+    flex-wrap: nowrap;
+    width:100%;
+}
+.button-Add{
+    border: none;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 0.5rem 0.7rem;
+    background-color: rgb(161, 161, 161);
+    cursor: pointer;
+}
+.Add-friends-Display-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.button-selection{
+    color: white;
+}
+.button-friend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.btn-delete{
+    background-color: red;
+    margin-left: 10px;
+    border-radius: 15px;
+    padding: 0.1rem 0.5rem;
+    color: white;
+    font-size: 1.1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+.moretextdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.moretext{
+    color: white;
+}
+@media screen and (max-width:700px){
+    
+    .Add-friends-Display-flex{
+        flex-direction: column;
+    }
+    .sectionmain {
+        width: 90%;
+    }
+    .messages-part{
+        width: 100%;
+    }
+    .chat-part{
+        width: 80%;
+    }
+    .Searchfoinfo{
+        padding-left: 0.2rem ;
+        padding-right: 0.2rem ;
+    }
+    .ASK-Answer-btn{
+        font-size: 0.9rem;
+    }
+    .search-div{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .displaymssgs {
+        margin:0 10px;
+    }
+    .sendlogo{
+        height: 50%;
+    }
+    .button-send{
+        margin-left: 5px;
+        padding: 0 1.2rem;
+    }
+}

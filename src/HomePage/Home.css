@@ -1,0 +1,434 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Nunito;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Header
+{
+  display: flex;
+  background-color: black;
+  height: 5rem;
+  width: 100%;
+  justify-content: space-around;
+}
+.logo{
+  height: 100%;
+ width: auto;
+  color: white;
+  
+  z-index: 1;
+}
+.logodiv{
+ flex: 1;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  color: rgb(163, 161, 161);
+  text-align: center;
+  align-items: center;
+}
+ul{
+  flex: 1;
+  padding-right: 2rem;  
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  text-decoration: none;
+}
+.Header-btn{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  font-size: 1.1rem;
+  transition: color 0.5s,background-color 0.5s;
+}
+.Header-btn:hover{
+  cursor: pointer;
+  background-color: rgb(163, 161, 161);
+  color: black;
+}
+.fixed-btn{
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  font-size: 1.1rem;
+  background-color: rgb(163, 161, 161);
+  color: black;
+  transition: color 0.5s;
+}
+.fixed-btn:hover{
+  cursor: pointer;
+  color: white;
+}
+.sectionOne{
+  padding-top: 5rem;
+  background-color: black;
+  display: flex;
+  height: 100%;
+  padding-bottom: 2rem;
+}
+
+.bigimage{
+  padding-left: 2rem;
+  object-fit: cover;
+  width:60vw;
+}
+.Title{
+  font-size: 4rem;
+  margin-top: 0;
+  color: white;
+}
+.first-speech{
+  color: white;
+  left: 10%;
+  top: 50%;
+  font-size: 1.5rem;
+  width: 71%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.parts-display{
+  margin-top: 5rem;
+  padding-left: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 7rem;
+  align-items: center;
+  justify-items: center;
+}
+.Part2{
+  background-color: rgb(163, 161, 161) ;
+  padding: 0;
+  padding-bottom: 5rem;
+  margin: 0;
+}
+.parts-images{
+  width: 35vw;
+  object-fit: cover;
+}
+.parts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.discription{
+  padding-top: 1rem;
+  max-width: 26ch;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.WelcomUSER{
+  background-color: rgb(163, 161, 161);
+  color: black;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  border-radius: 15px;
+}
+.hobbies-selection {
+  font-size:2.5rem;
+  padding-top: 5rem;
+  margin-top: 0;
+text-align: center;
+}
+.black-btn{
+  background-color: black;
+  color: rgb(163, 161, 161);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  font-size: 1.1rem;
+  transition: color 0.5s;
+}
+.black-btn:hover{
+  color: white;
+  cursor: pointer;
+}
+.width-height-settings{
+  width: 35vw;
+  height: 70vh;
+}
+.joining-message{
+  width: 110%;
+  font-size: 2.1rem;
+  padding-left: 90%;
+}
+.endparts{
+  padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blacksection{
+  background-color: black;
+  width: 100%;
+  padding-top: 2rem;
+  height: 100%;
+  padding-bottom: 5rem;
+
+}
+.Notes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 98vw;
+  align-items: center;
+}
+.imagegreind{ 
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  object-fit: contain;
+  margin: 0;}
+.Note-image{
+  position: relative;
+  width: 49%;
+  height: 50vh;
+  object-fit: contain;
+  margin: 0;
+}
+.Note-text{
+  color: white;
+  position: absolute;
+  width: 40%;
+  top: -5%;
+  left: 29%;
+  font-weight: 600;
+  z-index: 12;
+}
+.Note-text2{
+  color: white;
+  position: absolute;
+  width: 40%;
+  font-weight: 600;
+  bottom : 0;
+  left: 29%;
+  z-index: 12;
+}
+.Note-header{
+  padding-bottom: 7rem;
+  width: 99%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.text-discription{
+  width: 50%;
+  text-align: center;
+}
+.white-header{
+  color: white;
+}
+.askfouter{
+height: 100%;
+width: 100%;
+background-color: black;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+color: white;
+padding-bottom: 5rem;
+}
+.logoimage{
+  width: 10%;
+  height: 10%;
+
+}
+.footercolumn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+a{
+  text-decoration: none;
+  color: rgb(163, 161, 161);
+  cursor: pointer;
+  transition: color 0.5s;
+}
+a:hover{
+  color: white;
+}
+.Menu{
+  display: none;
+}
+.Header-Footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 4rem 0;
+  margin: 0;
+}
+@media only screen and (max-width:1000px){
+  .sectionOne{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bigimage{
+    padding: 0;
+    padding-bottom: 2rem;
+    width: 100%;
+  }
+  .Title{
+    font-size: 2rem
+  }
+  .parts-display{
+      padding: 0;
+      grid-template-columns: 1fr;
+  }
+  .width-height-settings{
+      width: 80%;
+
+  }
+  .Notes{
+      flex-direction: column;
+  }
+  .Note-image{
+      width: 80%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  .Note-text,.Note-text2{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width:auto;
+      position: static;
+  
+  }
+  .text-discription{
+      width: auto;
+    }
+    .askfouter{
+      flex-direction: column;
+    }
+    .logoimage{
+      height: auto;
+    }
+    .footercolumn{
+      padding-top: 5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .Header{
+      width: 100%;
+      justify-content: space-between;
+      
+    }
+    .Menu{
+      display: flex;
+      height: 80%;
+      width: 50%;
+    }
+    ul{
+      padding: 0;
+      margin: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr  ; 
+    }
+    
+    .transparent{
+      background-color: transparent;
+      padding: 0;
+      width:auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      
+    }
+    
+    .logodiv{
+      font-size: 1rem;
+      flex: none;
+      width: 70%;
+    }
+   
+   
+    
+    .btnmobile{
+      background-color: black;
+      color: white;
+    }
+    .menu-grid{
+      background-color: black;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr ;
+        }
+    .menu-items{
+      padding: 0.5rem 0;
+      color:white;
+      font-size: 1.2rem;
+      text-decoration: underline;
+    }
+    a,a:hover,a:focus,a:visited,a:active{
+      color: white;
+    }  
+    .remove{
+      display: none;
+    } 
+
+}
